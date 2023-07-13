@@ -6,8 +6,9 @@
     font-family: Montserrat;
     font-size: xx-large;
     color: #000000;
+    font-weight: 500;
     padding: 5px;
-    border: 1px solid #526D82;
+    border: 1px;
     text-align: center;
     line-height: 1.5;
     height:85%
@@ -40,7 +41,7 @@ body{
     var today = new Date();
     var hrs = today.getHours();
     var dayOfWeek = weekday[today.getDay()];
-    var date = dayOfWeek+" " + today.getDate() + "/" +(today.getMonth()+1) +'/'+today.getFullYear()  ;
+    var date = dayOfWeek+" " + today.getDate() + "-" +(today.getMonth()+1) +'-'+today.getFullYear()  ;
 
     var greet;
 
